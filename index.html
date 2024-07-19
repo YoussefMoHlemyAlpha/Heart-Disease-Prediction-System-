@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Prediction System</title>
+    <style>
+        body {
+            background-color: rgb(55, 7, 59); /* Background color */
+            color: #31192e; /* Text color */
+            font-family: 'Arial', sans-serif; /* Font family */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .sidebar-content {
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            padding: 20px; /* Padding */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            margin: 20px; /* Margin */
+        }
+
+        .stButton>button {
+            background-color: #007BFF; /* Button background color */
+            color: white; /* Button text color */
+            border: none; /* No border */
+            border-radius: 5px; /* Rounded corners */
+            padding: 10px 20px; /* Padding */
+            font-size: 16px; /* Font size */
+            cursor: pointer; /* Pointer cursor on hover */
+            transition: background-color 0.3s ease; /* Smooth transition */
+        }
+
+        .stButton>button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+
+
+        .header, .footer {
+            text-align: center; /* Center text */
+            padding: 10px 0; /* Padding */
+            color: #fff; /* Text color */
+        }
+
+        .header h1, .footer p {
+            margin: 0; /* Remove margin */
+        }
+
+        @media (max-width: 768px) {
+
+           .sidebar-content {
+                margin: 10px; /* Smaller margin */
+                padding: 15px; /* Smaller padding */
+            }
+
+            .stButton>button {
+                padding: 8px 16px; /* Smaller padding */
+                font-size: 14px; /* Smaller font size */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Heart Disease Prediction System</h1>
+        </div>
+        <div class="sidebar-content">
+            <!-- Sidebar content will be added dynamically by Streamlit -->
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 Heart Disease Prediction System</p>
+        </div>
+    </div>
+</body>
+</html>
+
